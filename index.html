@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌐 Advanced Web App</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Quiz</a></li>
+        <li><a href="#">Jokes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="box">
+      <h2>Responsive Design</h2>
+      <p>This layout adjusts for desktop, tablet, and mobile devices.</p>
+    </section>
+
+    <section class="box quiz-section">
+      <h2>🧠 Quick Quiz</h2>
+      <div id="question"></div>
+      <ul id="options"></ul>
+      <button id="nextBtn">Next</button>
+      <p id="scoreBoard"></p>
+    </section>
+
+    <section class="box">
+      <h2>😂 Joke Generator</h2>
+      <p id="joke">Click the button to get a joke!</p>
+      <button onclick="getJoke()">Get Joke</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
